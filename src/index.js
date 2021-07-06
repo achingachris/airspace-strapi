@@ -1,5 +1,14 @@
+import express from 'express'
+import cors from 'cors'
 import 'dotenv/config'
 
-console.log('Hello World Again')
+const app = express()
+app.use(cors())
 
-console.log(process.env.MY_SECRET)
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(process.env.PORT, () =>
+  console.log(`Example app listening on port ${process.env.PORT}!`)
+)
