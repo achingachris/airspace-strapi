@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plane_manufacturers",
+  "info": {
+    "name": "Plane Manufacturers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "headquaters": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "text"
+    }
+  }
+}

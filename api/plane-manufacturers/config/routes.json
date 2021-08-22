@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/plane-manufacturers",
+      "handler": "plane-manufacturers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/plane-manufacturers/count",
+      "handler": "plane-manufacturers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/plane-manufacturers/:id",
+      "handler": "plane-manufacturers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/plane-manufacturers",
+      "handler": "plane-manufacturers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/plane-manufacturers/:id",
+      "handler": "plane-manufacturers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/plane-manufacturers/:id",
+      "handler": "plane-manufacturers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
