@@ -33,4 +33,19 @@
 
 ### Aircraft
 
+- name
+- slug(name)
+- model_type
+- model_version
+- first_flight
+- first_commercial_flight
+- launch_airline
+
 ### Airports
+
+- name
+- slug(name)
+- country
+- city/town (city)
+- iata_code
+- iao_code
