@@ -6,7 +6,8 @@
 - slug(name)
 - date founded
 - headquaters
-- airline members(Airlines)
+- logo
+<!-- - airline members(Airlines) -->
 - description
 
 ### Airlines
