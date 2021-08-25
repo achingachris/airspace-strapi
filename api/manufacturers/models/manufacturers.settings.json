@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "manufacturers",
+  "info": {
+    "name": "Manufacturers",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "country": {
+      "type": "string"
+    },
+    "headquarters": {
+      "type": "string"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
