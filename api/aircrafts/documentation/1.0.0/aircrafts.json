@@ -257,7 +257,7 @@
     "/aircrafts/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of aircrafts documents",
+        "description": "Retrieve the number of aircrafts documents",
         "responses": {
           "200": {
             "description": "Retrieve aircrafts document(s)",

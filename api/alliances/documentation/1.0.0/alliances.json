@@ -257,7 +257,7 @@
     "/alliances/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of alliances documents",
+        "description": "Retrieve the number of alliances documents",
         "responses": {
           "200": {
             "description": "Retrieve alliances document(s)",

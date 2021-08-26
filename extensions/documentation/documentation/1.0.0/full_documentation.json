@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "08/25/2021 10:14:06 PM"
+    "x-generation-date": "08/26/2021 11:10:33 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -609,7 +609,7 @@
     "/aircrafts/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of aircrafts documents",
+        "description": "Retrieve the number of aircrafts documents",
         "responses": {
           "200": {
             "description": "Retrieve aircrafts document(s)",
@@ -1120,7 +1120,7 @@
     "/airlines/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of airlines documents",
+        "description": "Retrieve the number of airlines documents",
         "responses": {
           "200": {
             "description": "Retrieve airlines document(s)",
@@ -1631,7 +1631,7 @@
     "/airports/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of airports documents",
+        "description": "Retrieve the number of airports documents",
         "responses": {
           "200": {
             "description": "Retrieve airports document(s)",
@@ -2142,7 +2142,7 @@
     "/alliances/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of alliances documents",
+        "description": "Retrieve the number of alliances documents",
         "responses": {
           "200": {
             "description": "Retrieve alliances document(s)",
@@ -2653,7 +2653,7 @@
     "/manufacturers/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of manufacturers documents",
+        "description": "Retrieve the number of manufacturers documents",
         "responses": {
           "200": {
             "description": "Retrieve manufacturers document(s)",

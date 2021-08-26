@@ -257,7 +257,7 @@
     "/airlines/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of airlines documents",
+        "description": "Retrieve the number of airlines documents",
         "responses": {
           "200": {
             "description": "Retrieve airlines document(s)",

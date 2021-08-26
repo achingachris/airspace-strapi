@@ -257,7 +257,7 @@
     "/airports/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of airports documents",
+        "description": "Retrieve the number of airports documents",
         "responses": {
           "200": {
             "description": "Retrieve airports document(s)",

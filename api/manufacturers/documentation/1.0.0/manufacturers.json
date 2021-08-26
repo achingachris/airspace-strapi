@@ -257,7 +257,7 @@
     "/manufacturers/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of manufacturers documents",
+        "description": "Retrieve the number of manufacturers documents",
         "responses": {
           "200": {
             "description": "Retrieve manufacturers document(s)",
