@@ -1,8 +1,8 @@
 {
-  "name": "heroku",
+  "name": "airspace",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Aviation content and API",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -16,22 +16,25 @@
     "knex": "<0.20.0",
     "pg": "^8.5.1",
     "pg-connection-string": "^2.5.0",
+    "slugify": "^1.6.0",
     "sqlite3": "latest",
-    "strapi": "3.6.3",
-    "strapi-admin": "3.6.3",
+    "strapi": "^3.6.8",
+    "strapi-admin": "^3.6.8",
     "strapi-connector-bookshelf": "3.6.3",
-    "strapi-plugin-content-manager": "3.6.3",
-    "strapi-plugin-content-type-builder": "3.6.3",
+    "strapi-plugin-content-manager": "^3.6.8",
+    "strapi-plugin-content-type-builder": "^3.6.8",
+    "strapi-plugin-documentation": "^3.6.8",
     "strapi-plugin-email": "3.6.3",
+    "strapi-plugin-graphql": "^3.6.8",
     "strapi-plugin-i18n": "^3.6.3",
-    "strapi-plugin-upload": "3.6.3",
-    "strapi-plugin-users-permissions": "3.6.3",
+    "strapi-plugin-upload": "^3.6.8",
+    "strapi-plugin-users-permissions": "^3.6.8",
     "strapi-provider-upload-cloudinary": "^3.6.3",
     "strapi-utils": "3.6.3",
     "uuidv4": "^6.2.6"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Chris Achinga"
   },
   "strapi": {
     "uuid": "7107e57d-a7dd-41a3-82c5-b50d4d6e962a"
