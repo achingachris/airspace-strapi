@@ -1,15 +1,15 @@
-const { parse } = require("pg-connection-string");
+const { parse } = require('pg-connection-string')
 
 module.exports = ({ env }) => {
-  const { host, port, database, user, password } = parse(env("DATABASE_URL"));
+  const { host, port, database, user, password } = parse(env('DATABASE_URL'))
 
   return {
-    defaultConnection: "default",
+    defaultConnection: 'default',
     connections: {
       default: {
-        connector: "bookshelf",
+        connector: 'bookshelf',
         settings: {
-          client: "postgres",
+          client: 'postgres',
           host,
           port,
           database,
@@ -20,8 +20,8 @@ module.exports = ({ env }) => {
         options: {},
       },
     },
-  };
-};
+  }
+}
 
 // Use this configuration for an SQLite database on your machine.
 // module.exports = ({ env }) => ({
