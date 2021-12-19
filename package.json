@@ -10,12 +10,12 @@
     "strapi": "strapi",
     "heroku-postbuild": "strapi build && node scripts/postinstall.js"
   },
-  "devDependencies": {},
   "dependencies": {
     "fs": "^0.0.1-security",
     "knex": "<0.20.0",
     "pg": "^8.5.1",
     "pg-connection-string": "^2.5.0",
+    "slugify": "^1.6.4",
     "sqlite3": "latest",
     "strapi": "3.6.3",
     "strapi-admin": "3.6.3",
