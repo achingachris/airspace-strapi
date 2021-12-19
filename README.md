@@ -2,7 +2,7 @@
 
 This repository contains a basic Strapi application which is quickly and easily deployable on Heroku through a one-click deploy button
 
-<a href="https://www.heroku.com/deploy/?template=https://github.com/strapi/strapi-heroku-template">
+<a href="https://www.heroku.com/deploy/?template=https://github.com/achingachris/airspace-strapi">
 <img src="https://assets.strapi.io/uploads/Deploy_button_heroku_b1043fc67d.png" />
 </a>
 
